@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
     if (!user_input(argc, argv, num_samples, num_bits, cosine))
     {
-        std::cout << "Invalid arguments.\n";
+        std::cout << "Invalid arguments!\n";
         std::cout << "Usage: sintable NUM_SAMPLES BIT-WIDTH [c]\n";
         return 1;
     }
